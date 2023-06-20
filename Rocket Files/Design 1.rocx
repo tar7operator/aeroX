@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Rocket Version="5">
+  <RocketDescription>AEROX</RocketDescription>
+  <Comments></Comments>
+  <Designer>Vijay</Designer>
+  <LegacyMode>0</LegacyMode>
+  <CalculateCD>0</CalculateCD>
+  <FixedCD>0.64</FixedCD>
+  <OverrideCG>-1</OverrideCG>
+  <FixedCG>0</FixedCG>
+  <StageCount>1</StageCount>
+  <IgnitionDelayIndex>-1</IgnitionDelayIndex>
+  <Stage1>
+    <Serial>4</Serial>
+    <MatrixID>0</MatrixID>
+    <Description>Stage 1</Description>
+    <XLength>0</XLength>
+    <Autosize>-1</Autosize>
+    <Visible>0</Visible>
+    <MotorMount>0</MotorMount>
+    <DBManufacturer></DBManufacturer>
+    <DBPartNo></DBPartNo>
+    <DBPartDescription></DBPartDescription>
+    <Material>Balsa|0.00289300|0.00000000|False|0.00000000|False|g/mm³</Material>
+    <ReferenceData>0|-1|0.00000000|0.00000000</ReferenceData>
+    <RadialData>1|0.00000000|0.00000000</RadialData>
+    <Color>&lt;DisplayColor AmbientOpacity="1" DiffuseOpacity="1" UseAmbient="0" Color2D="0" AmbientColor="8421504" DiffuseColor="8421504"/&gt;</Color>
+    <AttachedElements>
+      <Nosecone>
+        <Serial>25</Serial>
+        <MatrixID>1</MatrixID>
+        <Description>Nose Cone</Description>
+        <XLength>0</XLength>
+        <Autosize>-1</Autosize>
+        <Visible>-1</Visible>
+        <MotorMount>0</MotorMount>
+        <DBManufacturer></DBManufacturer>
+        <DBPartNo></DBPartNo>
+        <DBPartDescription></DBPartDescription>
+        <Material>Epoxy|0.00125425|0.00000000|False|0.00000000|False|g/mm³</Material>
+        <ReferenceData>0|-1|0.00000000|0.00000000</ReferenceData>
+        <RadialData>1|0.00000000|0.00000000</RadialData>
+        <Color>&lt;DisplayColor AmbientOpacity="0.7" DiffuseOpacity="1" UseAmbient="-1" Color2D="8388736" AmbientColor="10035746" DiffuseColor="10035746"/&gt;</Color>
+        <ShapeLength>200</ShapeLength>
+        <OutsideRadius>40</OutsideRadius>
+        <BaseExtension>0</BaseExtension>
+        <Thickness>2</Thickness>
+        <isHollow>-1</isHollow>
+        <HasCore>0</HasCore>
+        <BackCouplerLength>200</BackCouplerLength>
+        <BackCouplerRadius>0</BackCouplerRadius>
+        <CoreLength>0</CoreLength>
+        <CoreRadius>0</CoreRadius>
+        <ShapeCode>0</ShapeCode>
+        <ShapeParameter>0</ShapeParameter>
+        <AttachedElements>
+          <Recovery>
+            <Serial>26</Serial>
+            <MatrixID>7</MatrixID>
+            <Description>Recovery Device</Description>
+            <XLength>0</XLength>
+            <Autosize>-1</Autosize>
+            <Visible>-1</Visible>
+            <MotorMount>0</MotorMount>
+            <DBManufacturer></DBManufacturer>
+            <DBPartNo></DBPartNo>
+            <DBPartDescription></DBPartDescription>
+            <Material>1.3 oz. Ripstop Nylon (SkyAngle)|0.00000174|0.00000000|False|0.00000000|False|g/mm³</Material>
+            <ReferenceData>3|25|100.00000000|100.00000000</ReferenceData>
+            <RadialData>1|0.00000000|0.00000000</RadialData>
+            <Color>&lt;DisplayColor AmbientOpacity="1" DiffuseOpacity="1" UseAmbient="0" Color2D="0" AmbientColor="8421504" DiffuseColor="8421504"/&gt;</Color>
+            <ManualcdValue>0.8</ManualcdValue>
+            <DeploymentValue>0</DeploymentValue>
+            <useManualCD>0</useManualCD>
+            <mmCanopyRadius>500</mmCanopyRadius>
+            <mmSpillHoleRadius>95</mmSpillHoleRadius>
+            <mmShroudLineLength>1000</mmShroudLineLength>
+            <mmStreamerLength>0</mmStreamerLength>
+            <mmStreamerWidth>0</mmStreamerWidth>
+            <StreamerMaterial>1.1 oz. Rip Stop Nylon|0.00000147|0.00000000|False|0.00000000|False|g/mm³</StreamerMaterial>
+            <ShroudLineMaterial>1/16 in. Braided Nylon|0.00102000|0.00000000|False|0.00000000|False|g/mm³</ShroudLineMaterial>
+            <ShroudLineCount>6</ShroudLineCount>
+            <DeploymentRule>2</DeploymentRule>
+            <RecoveryType>1</RecoveryType>
+            <mDeploymentHeight>0</mDeploymentHeight>
+            <DeploymentTime>5</DeploymentTime>
+          </Recovery>
+        </AttachedElements>
+      </Nosecone>
+      <BodyTube>
+        <Serial>27</Serial>
+        <MatrixID>2</MatrixID>
+        <Description>Parachute Bay</Description>
+        <XLength>150</XLength>
+        <Autosize>-1</Autosize>
+        <Visible>-1</Visible>
+        <MotorMount>0</MotorMount>
+        <DBManufacturer></DBManufacturer>
+        <DBPartNo></DBPartNo>
+        <DBPartDescription></DBPartDescription>
+        <Material>Fiber|0.00065676|0.00000000|False|0.00000000|False|g/mm³</Material>
+        <ReferenceData>1|-1|0.00000000|200.00000000</ReferenceData>
+        <RadialData>1|0.00000000|0.00000000</RadialData>
+        <Color>&lt;DisplayColor AmbientOpacity="0.6" DiffuseOpacity="1" UseAmbient="-1" Color2D="0" AmbientColor="10053171" DiffuseColor="10053171"/&gt;</Color>
+        <WallThickness>2</WallThickness>
+        <OutsideRadius>40</OutsideRadius>
+        <IsInsideTube>0</IsInsideTube>
+        <AttachedElements>
+          <MassObject>
+            <Serial>28</Serial>
+            <MatrixID>6</MatrixID>
+            <Description>Mass / Weight</Description>
+            <XLength>0</XLength>
+            <Autosize>-1</Autosize>
+            <Visible>-1</Visible>
+            <MotorMount>0</MotorMount>
+            <DBManufacturer></DBManufacturer>
+            <DBPartNo></DBPartNo>
+            <DBPartDescription></DBPartDescription>
+            <Material>(Unnamed)|0.00000000|70.00000000|True|0.00000000|True|g/mm³</Material>
+            <ReferenceData>2|27|70.00000000|270.00000000</ReferenceData>
+            <RadialData>1|0.00000000|0.00000000</RadialData>
+            <Color>&lt;DisplayColor AmbientOpacity="1" DiffuseOpacity="1" UseAmbient="0" Color2D="0" AmbientColor="8421504" DiffuseColor="8421504"/&gt;</Color>
+          </MassObject>
+        </AttachedElements>
+      </BodyTube>
+      <BodyTube>
+        <Serial>29</Serial>
+        <MatrixID>2</MatrixID>
+        <Description>Avionics Bay</Description>
+        <XLength>150</XLength>
+        <Autosize>-1</Autosize>
+        <Visible>-1</Visible>
+        <MotorMount>0</MotorMount>
+        <DBManufacturer></DBManufacturer>
+        <DBPartNo></DBPartNo>
+        <DBPartDescription></DBPartDescription>
+        <Material>Fiber|0.00065676|0.00000000|False|0.00000000|False|g/mm³</Material>
+        <ReferenceData>1|-1|0.00000000|350.00000000</ReferenceData>
+        <RadialData>1|0.00000000|0.00000000</RadialData>
+        <Color>&lt;DisplayColor AmbientOpacity="0.6" DiffuseOpacity="1" UseAmbient="-1" Color2D="128" AmbientColor="10053171" DiffuseColor="52479"/&gt;</Color>
+        <WallThickness>2</WallThickness>
+        <OutsideRadius>40</OutsideRadius>
+        <IsInsideTube>0</IsInsideTube>
+      </BodyTube>
+      <BodyTube>
+        <Serial>30</Serial>
+        <MatrixID>2</MatrixID>
+        <Description>Body Tube</Description>
+        <XLength>200</XLength>
+        <Autosize>-1</Autosize>
+        <Visible>-1</Visible>
+        <MotorMount>0</MotorMount>
+        <DBManufacturer></DBManufacturer>
+        <DBPartNo></DBPartNo>
+        <DBPartDescription></DBPartDescription>
+        <Material>Fiber|0.00065676|0.00000000|False|0.00000000|False|g/mm³</Material>
+        <ReferenceData>1|-1|0.00000000|500.00000000</ReferenceData>
+        <RadialData>1|0.00000000|0.00000000</RadialData>
+        <Color>&lt;DisplayColor AmbientOpacity="0.6" DiffuseOpacity="1" UseAmbient="-1" Color2D="0" AmbientColor="10053171" DiffuseColor="8388736"/&gt;</Color>
+        <WallThickness>2</WallThickness>
+        <OutsideRadius>40</OutsideRadius>
+        <IsInsideTube>0</IsInsideTube>
+        <AttachedElements>
+          <Fins>
+            <Serial>31</Serial>
+            <MatrixID>4</MatrixID>
+            <Description>Fin Set</Description>
+            <XLength>200</XLength>
+            <Autosize>-1</Autosize>
+            <Visible>-1</Visible>
+            <MotorMount>0</MotorMount>
+            <DBManufacturer></DBManufacturer>
+            <DBPartNo></DBPartNo>
+            <DBPartDescription></DBPartDescription>
+            <Material>Fiber|0.00065676|0.00000000|False|0.00000000|False|g/mm³</Material>
+            <ReferenceData>3|30|0.00000000|630.00000000</ReferenceData>
+            <RadialData>4|0.00000000|0.00000000</RadialData>
+            <Color>&lt;DisplayColor AmbientOpacity="0.4" DiffuseOpacity="0.4" UseAmbient="-1" Color2D="0" AmbientColor="1153433" DiffuseColor="1140326"/&gt;</Color>
+            <FmmA>70</FmmA>
+            <FmmB>70</FmmB>
+            <FmmC>50</FmmC>
+            <FmmD>70</FmmD>
+            <FmmTabOffset>0</FmmTabOffset>
+            <FmmTabWidth>0</FmmTabWidth>
+            <FmmTabHeight>0</FmmTabHeight>
+            <FmmThickness>3</FmmThickness>
+            <FFinType>1</FFinType>
+            <FinPointSize>4</FinPointSize>
+            <X0>0</X0>
+            <Y0>0</Y0>
+            <X1>40</X1>
+            <Y1>30</Y1>
+            <X2>70</X2>
+            <Y2>40</Y2>
+            <X3>60</X3>
+            <Y3>0</Y3>
+          </Fins>
+          <EngineTube>
+            <Serial>32</Serial>
+            <MatrixID>12</MatrixID>
+            <Description>U.S. Rockets F25</Description>
+            <XLength>0</XLength>
+            <Autosize>-1</Autosize>
+            <Visible>-1</Visible>
+            <MotorMount>0</MotorMount>
+            <DBManufacturer></DBManufacturer>
+            <DBPartNo></DBPartNo>
+            <DBPartDescription></DBPartDescription>
+            <Material>Balsa|0.00289300|0.00000000|False|0.00000000|False|g/mm³</Material>
+            <ReferenceData>3|30|20.00000000|540.00000000</ReferenceData>
+            <RadialData>1|0.00000000|0.00000000</RadialData>
+            <Color>&lt;DisplayColor AmbientOpacity="0.7" DiffuseOpacity="1" UseAmbient="-1" Color2D="255" AmbientColor="2237081" DiffuseColor="2237081"/&gt;</Color>
+            <Engine>U.S. Rockets F25</Engine>
+            <WallThickness>0</WallThickness>
+            <OutsideRadius>0</OutsideRadius>
+            <hasWrapAroundTube>0</hasWrapAroundTube>
+            <mmEngineTubeLength>0</mmEngineTubeLength>
+            <mmEngineTubeOffset>0</mmEngineTubeOffset>
+            <gMotorMountWeight>0</gMotorMountWeight>
+            <Arrangement>0</Arrangement>
+          </EngineTube>
+          <CenteringRing>
+            <Serial>33</Serial>
+            <MatrixID>9</MatrixID>
+            <Description>Centering Ring</Description>
+            <XLength>20</XLength>
+            <Autosize>-1</Autosize>
+            <Visible>-1</Visible>
+            <MotorMount>0</MotorMount>
+            <DBManufacturer></DBManufacturer>
+            <DBPartNo></DBPartNo>
+            <DBPartDescription></DBPartDescription>
+            <Material>Fiber|0.00065676|0.00000000|False|0.00000000|False|g/mm³</Material>
+            <ReferenceData>3|30|90.00000000|590.00000000</ReferenceData>
+            <RadialData>1|0.00000000|0.00000000</RadialData>
+            <Color>&lt;DisplayColor AmbientOpacity="1" DiffuseOpacity="1" UseAmbient="-1" Color2D="0" AmbientColor="2284834" DiffuseColor="2284834"/&gt;</Color>
+            <OutsideRadius>-1</OutsideRadius>
+            <WallThickness>0</WallThickness>
+            <CoreRadius>0</CoreRadius>
+          </CenteringRing>
+        </AttachedElements>
+      </BodyTube>
+    </AttachedElements>
+  </Stage1>
+  <Stage2>
+    <Serial>3</Serial>
+    <MatrixID>0</MatrixID>
+    <Description>Stage 2</Description>
+    <XLength>0</XLength>
+    <Autosize>-1</Autosize>
+    <Visible>0</Visible>
+    <MotorMount>0</MotorMount>
+    <DBManufacturer></DBManufacturer>
+    <DBPartNo></DBPartNo>
+    <DBPartDescription></DBPartDescription>
+    <Material>Balsa|0.00289300|0.00000000|False|0.00000000|False|g/mm³</Material>
+    <ReferenceData>0|-1|0.00000000|0.00000000</ReferenceData>
+    <RadialData>1|0.00000000|0.00000000</RadialData>
+    <Color>&lt;DisplayColor AmbientOpacity="1" DiffuseOpacity="1" UseAmbient="0" Color2D="0" AmbientColor="8421504" DiffuseColor="8421504"/&gt;</Color>
+    <AttachedElements/>
+  </Stage2>
+  <Stage3>
+    <Serial>2</Serial>
+    <MatrixID>0</MatrixID>
+    <Description>Stage 3</Description>
+    <XLength>0</XLength>
+    <Autosize>-1</Autosize>
+    <Visible>0</Visible>
+    <MotorMount>0</MotorMount>
+    <DBManufacturer></DBManufacturer>
+    <DBPartNo></DBPartNo>
+    <DBPartDescription></DBPartDescription>
+    <Material>Balsa|0.00289300|0.00000000|False|0.00000000|False|g/mm³</Material>
+    <ReferenceData>0|-1|0.00000000|0.00000000</ReferenceData>
+    <RadialData>1|0.00000000|0.00000000</RadialData>
+    <Color>&lt;DisplayColor AmbientOpacity="1" DiffuseOpacity="1" UseAmbient="0" Color2D="0" AmbientColor="8421504" DiffuseColor="8421504"/&gt;</Color>
+    <AttachedElements/>
+  </Stage3>
+  <FlightPrediction>
+    <sNextStageIgnitionDelay0>0</sNextStageIgnitionDelay0>
+    <sNextStageIgnitionDelay1>0</sNextStageIgnitionDelay1>
+    <dt>0.01</dt>
+    <mLaunchSiteElevation>0</mLaunchSiteElevation>
+    <mLaunchRodLength>0</mLaunchRodLength>
+    <FLaunchRod>0</FLaunchRod>
+    <mpsMinLREscapeVelocity>13.5</mpsMinLREscapeVelocity>
+    <useStdAtmosphere>-1</useStdAtmosphere>
+    <relHumidity>0</relHumidity>
+    <CLaunchTemp>20</CLaunchTemp>
+    <mpsDescent>3</mpsDescent>
+    <paAirPressure>100000</paAirPressure>
+    <Longitude>0</Longitude>
+    <Latitude>0</Latitude>
+    <LaunchSiteID>0</LaunchSiteID>
+    <LaunchSiteDescr></LaunchSiteDescr>
+  </FlightPrediction>
+</Rocket>
